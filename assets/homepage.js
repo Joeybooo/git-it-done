@@ -18,6 +18,7 @@ var getUserRepos = function(user) {
       // Notice this `.catch()` getting chained onto the end of the `.then()` method
       alert("Unable to connect to GitHub");
     });
+};
 
 var userFromEl = document.querySelector("#user-form");
 var nameInputEl = document.querySelector("#username");
